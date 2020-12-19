@@ -1,0 +1,15 @@
+.ion-title {
+    position: relative;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 1);
+    display: inline-block;
+    margin: 10px;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100%;
+    }
+  
