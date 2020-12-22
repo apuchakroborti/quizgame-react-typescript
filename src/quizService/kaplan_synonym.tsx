@@ -56,13 +56,16 @@ const kaplanGreSynonymBank = [
             "Arbitary: random, capricious", 
             "Chance: ", 
             "Changeable: ", 
-            "Erratic: ",
+            "Erratic: (Wandering and unpredictable) The plot seemed predictable until it suddenly took a"+
+            " series of erratic turns that surprised the audience.",
+            "Errant: straying, mistaken, roving",
             "Fickle: likely to change for no good reason",
             "Inconstant: ",
             "Mercurial: emotionally unpredictable; rapidly changing in mood",
             "Random: ",
             "Whimsical: acting in a fanciful or capricious manner; unpredictable",
-            "Willful: "
+            "Willful: ",
+            "Irresolute"
         ],
         answers: [ "", "", "", ""],
         questionId: "0003",
@@ -515,7 +518,10 @@ const kaplanGreSynonymBank = [
             "Harangue",
             "Obloquy",
             "Revilement",
-            "Vilification" 
+            "Vilification",
+            "Invective",
+            "Jeremiad",
+            "Malediction", 
         ],
         answers: [ "", "", "", ""],
         questionId: "0034",
@@ -537,30 +543,241 @@ const kaplanGreSynonymBank = [
         questionId: "0035",
         
     },
-    // {
-    //     question: "",
-    //     correct: "",
-    //     description: "",
-    //     synonyms:[
-    //         "", 
-    //         "", 
-    //     ],
-    //     answers: [ "", "", "", ""],
-    //     questionId: "0015",
+    {
+        question: "Abstain",
+        correct: "to choose not to do something",
+        description: "During Lent, practicing Catholics abstain from eating meat.",
+        synonyms:[
+            "Forbear", 
+            "Refrain",
+            "Withhold",
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0036",
+    },
+    {
+        question: "Abyss",
+        correct: "an extremly deep hole",
+        description: "The submarine dove into the abyss to chart the previously unseen depths.",
+        synonyms:[
+            "Abyssal: pertaining to great depth", 
+            "Abysmal: extremely bad",
+            "Chasm", 
+            "Void",
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0037",
         
-    // },
-    // {
-    //     question: "",
-    //     correct: "",
-    //     description: "",
-    //     synonyms:[
-    //         "", 
-    //         "", 
-    //     ],
-    //     answers: [ "", "", "", ""],
-    //     questionId: "0015",
+    },
+    {
+        question: "Bolster",
+        correct: "to support; to prop up",
+        description: "The presence of giant footprints bolstered the argument that Sasquatch was in the area.",
+        synonyms:[
+            "Brace", 
+            "Buttres",
+            "Prop",
+            "Support", 
+            "Sustain",
+            "Underpin",
+            "Uphold"
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0038",
         
-    // },
+    },
+    {
+        question: "Bombastic",
+        correct: "pompous in speech and manner",
+        description: "Mussolini's speeches were mostly bombastic; his boasting and outrageous claims had no basis in fact.",
+        synonyms:[
+            "Bombast:pompas speech or writing", 
+            "Bloated",
+            "Declamatory", 
+            "Fustain",
+            "Grandiloquent",
+            "Grandiose",
+            "High-flown",
+            "Magliloquent",
+            "Orotund",
+            "Pretentious",
+            "Rhetorical",
+            "Self-important", 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0039",
+        
+    },
+    {
+        question: "Cacophony",
+        correct: "harsh; jarring noise",
+        description: "The junior high orchestra created an almost unbearable cacophony as they tried to tune their instruments.",
+        synonyms:[
+            "Chaos", 
+            "Clamor",
+            "Din",
+            "Discord", 
+            "Disharmony",
+            "Noise",
+
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0040",
+        
+    },
+    {
+        question: "Candid",
+        correct: "impartial and honest in speech",
+        description: "The observations of a child can be charming since they are candid and unpretentious.",
+        synonyms:[
+            "Direct", 
+            "Forthright",
+            "Frank", 
+            "Honest",
+            "Open",
+            "Sincere",
+            "Straight",
+            "Straightforward",
+            "Undisguised" 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0041",
+        
+    },
+    {
+        question: "Desultory",
+        correct: "jumping from one thing to another; disconnected",
+        description: "Diane had a desultory academic record; she had changed majors 12 times in three years.",
+        synonyms:[
+            "Aimless", 
+            "Erratic",
+            "Haphazard",
+            "Indiscriminate", 
+            "Objectless",
+            "Purposeless",
+            "Random",
+            "Stray",
+            "Unconnected",
+            "Unplanned"
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0042",
+        
+    },
+    {
+        question: "Diffident",
+        correct: "lacking self-confidence",
+        description: "Steve's diffident manner during the job interview stemmed from his nervous nature and lack of experience in the field.",
+        synonyms:[
+            "Backword", 
+            "Bashful",
+            "Demure", 
+            "Modest",
+            "Coy",
+            "Retiring",
+            "Self-effacing",
+            "Shy" 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0043",
+        
+    },
+    {
+        question: "",
+        correct: "",
+        description: "",
+        synonyms:[
+            "", 
+            "",
+            "",
+            "", 
+            "",
+            "",
+
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0015",
+        
+    },
+    {
+        question: "",
+        correct: "",
+        description: "",
+        synonyms:[
+            "", 
+            "",
+            "", 
+            "",
+            "", 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0015",
+        
+    },
+    {
+        question: "",
+        correct: "",
+        description: "",
+        synonyms:[
+            "", 
+            "",
+            "",
+            "", 
+            "",
+            "",
+
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0015",
+        
+    },
+    {
+        question: "",
+        correct: "",
+        description: "",
+        synonyms:[
+            "", 
+            "",
+            "", 
+            "",
+            "", 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0015",
+        
+    },
+    {
+        question: "",
+        correct: "",
+        description: "",
+        synonyms:[
+            "", 
+            "",
+            "",
+            "", 
+            "",
+            "",
+
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0015",
+        
+    },
+    {
+        question: "",
+        correct: "",
+        description: "",
+        synonyms:[
+            "", 
+            "",
+            "", 
+            "",
+            "", 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0015",
+        
+    },
     
 ]
 
