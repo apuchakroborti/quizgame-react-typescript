@@ -4,14 +4,14 @@ const kaplanGreSynonymBank = [
         correct: "To reduce in amount, degree, or severity",
         description:"As the hurricane's force abated, the winds dropped the sea became calm.",
         synonyms:[
-            "Ebb: ",
+            "Ebb: to diminish; to recede",
             "Lapse: ",
             "Let up: ",
             "Moderate: ",
             "Relent: ",
             "Slacken: ",
-            "Subside: ",
-            "Wane: "
+            "Subside: to sink or settle; to diminish; to lessen",
+            "Wane: to decrease in strength or intensity; to fade away; to decline in power"
         ],
         answers: [ "", "", "", ""],
         questionId: "0001",
@@ -21,19 +21,19 @@ const kaplanGreSynonymBank = [
         correct: "predictable, cliched, boring",
         description:"He used banal phrases like 'Have a nice Day' or 'Another day another dollar'.",
         synonyms:[
-            "Bland: ",
-            "Bromidic: ",
+            "Bland: mild; tasteless; dull; unlively",
+            "Bromidic: dull; ovious; overfamiliar saying",
             "Cliched: ",
             "Commonplace: ",
-            "Fatuous: ",
-            "Hackneyed: ",
-            "Innocuous: ", 
-            "Insipid: ", 
+            "Fatuous: foolish; sily; idiotic",
+            "Hackneyed: overused; trite; stale",
+            "Innocuous: harmless; banal", 
+            "Insipid: dull; bland; banal", 
             "Jejune: ", 
             "Musty: ",
-            "Platitudinous: ",
-            "Prosaic: ",
-            "Quotidian: ",
+            "Platitudinous: dull or trite remark; a cliche",
+            "Prosaic: dull; unimaginative; like prose(as opposed to poetry)",
+            "Quotidian: daily; everyday; ordinary",
             "Shopworn: ",
             "Stale: ",
             "Stereotypic: ",
@@ -41,7 +41,7 @@ const kaplanGreSynonymBank = [
             "Timeworn: ",
             "Tired: ",
             "Trite: ",
-            "Vapid: ",
+            "Vapid: without liveliness; dull; spiritless",
             "Worn-out: "
         ],
         answers: [ "", "", "", ""],
@@ -53,15 +53,15 @@ const kaplanGreSynonymBank = [
         correct: "changing one's mind quickly and often",
         description:"Queen Elizabeth I was capricious; her coutiers could never be sure which of their number would catch her fancy.",
         synonyms:[
-            "Arbitary: ", 
+            "Arbitary: random, capricious", 
             "Chance: ", 
             "Changeable: ", 
             "Erratic: ",
-            "Fickle: ",
+            "Fickle: likely to change for no good reason",
             "Inconstant: ",
-            "Mercurial: ",
+            "Mercurial: emotionally unpredictable; rapidly changing in mood",
             "Random: ",
-            "Whimsical: ",
+            "Whimsical: acting in a fanciful or capricious manner; unpredictable",
             "Willful: "
         ],
         answers: [ "", "", "", ""],
@@ -73,10 +73,10 @@ const kaplanGreSynonymBank = [
         description: "The respectful young law clerk treated the Supreme Court justice with the utmost deference.",
         synonyms:[
             "Courtesy: ", 
-            "Homage: ", 
-            "Obeisance: ", 
+            "Homage: reverence", 
+            "Obeisance: a bow or curtsy; deep reverence", 
             "Reverence: ",
-            "Veneration: ",
+            "Veneration: reverence",
             
         ],
         answers: [ "", "", "", ""],
@@ -89,7 +89,7 @@ const kaplanGreSynonymBank = [
         description: "The guerrillas hoped that a series of surprise attacks would enervate the regular army.",
         synonyms:[
             "Unnerve: to deprive of strength or courage", 
-            "Debilitate: ", 
+            "Debilitate: to weaken; to cripple", 
             "Enfeeble: ", 
             "Sap: ",
             "Weaken: "
@@ -218,6 +218,350 @@ const kaplanGreSynonymBank = [
         questionId: "0014",
         
     },
+    {
+        question: "Satiate",
+        correct: "to satisfy fully or overindulge",
+        description: "His desire for power was so great that nothing less than complete control of the country could satiate it.",
+        synonyms:[
+            "Sate: to fully satisfy or overindulge", 
+            "Insatiable: incapable of being satisfied",
+            "Cloy: ",
+            "Glut: ",
+            "Gorge: ",
+            "Surfeit: " 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0015",
+        
+    },
+    {
+        question: "Transitory",
+        correct: "temporary, lasting a brief time",
+        description: "The reporter lived a transitory life, staying in one place only long enough to cover the current story.",
+        synonyms:[
+            "Transit: to pass through; to change or make a transition", 
+            "Transient: passing quickly in and out of existence; one who stays a short time",
+            "Ephemeral: ",
+            "Evanescent: ",
+            "Fleeting: ",
+            "Imparmanent: ",
+            "Momentary: " 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0016",
+        
+    },
+    {
+        question: "Vacillate",
+        correct: "to sway physically; to be indecisive",
+        description: "The customer held up the line as he vacillated between ordering chocolate chip or rocky road ice cream.",
+        synonyms:[
+            "Dither: ", 
+            "Falter: ",
+            "Fluctuate: ",
+            "Oscillate: ",
+            "Waver: " 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0017",
+        
+    },
+    {
+        question: "Whimsical",
+        correct: "acting in a fanciful or capricious manner; unpredictable",
+        description: "The ballet was whimsical, delighting the children with its imaginative characters and unpredictable sets.",
+        synonyms:[
+            "Whim: a fancy or sudden notion", 
+            "Capricious: ",
+            "Eratic: ",
+            "Flippant: ",
+            "Frivolous: " 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0018",
+        
+    },
+    {
+        question: "Zeal",
+        correct: "passion, excitement",
+        description: "She brought her typical zeal to the project, sparking enthusiasm in the other team members.",
+        synonyms:[
+            "Zealot: a fantic", 
+            "Ardency: ",
+            "Fervor: ",
+            "Fire: ",
+            "Passion: " 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0019",
+        
+    },
+    {
+        question: "Abscond",
+        correct: "to leave secretly",
+        description: "The patron absconded from the restaurant without paying his bill by sneaking out back door.",
+        synonyms:[
+            "Flee", 
+            "Decamp",
+            "Escape" 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0020",
+        
+    },
+    {
+        question: "Castigate",
+        correct: "to punish or criticize harshly",
+        description: "Americans are amazed at how harshly the authorities in Singapore castigate"+
+        " perpetrators of what would be considered minor crimes in the United States.",
+        synonyms:[
+            "Admonish: ", 
+            "Chastise",
+            "Chide",
+            "Rebuke",
+            "Reprimand",
+            "Reproach", 
+            "Reprove",
+            "Scold",
+            "Tax",
+            "Upbraid", 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0021",
+        
+    },
+    {
+        question: "Deride",
+        correct: "to speak of or treat with contempt, to mock",
+        description: "The awakward child was often derided by his cooler peers.",
+        synonyms:[
+            "Derision: mockery and taunts", 
+            "Derisive: in a mocking manner",
+            "Gibe: ", 
+            "Jeer: ",
+            "Mock",
+            "Ridicule",
+            "Scoff: ",
+            "Sneer: ",
+            "Taunt: " 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0022",
+        
+    },
+    {
+        question: "Enigma",
+        correct: "a puzzle; a mystery",
+        description: "Speaking in riddles and dressed in old robes, the artist gained a reputation as something of an enigma.",
+        synonyms:[
+            "Conundrum: ", 
+            "Perplexity: " 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0023",
+        
+    },
+    {
+        question: "Fawn",
+        correct: "to grovel; adulate",
+        description: "The understudy fawned over the director in hopes of being cast in the part on a permanent basis.",
+        synonyms:[
+            "Bootlick: ", 
+            "Grovel",
+            "Pander", 
+            "Toady", 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0024",
+        
+    },
+    {
+        question: "Gregarious",
+        correct: "outgoing; sociable",
+        description: "She was so gregarious that when she found herself alone she felt quite sad.",
+        synonyms:[
+            "Affable", 
+            "Communicative",
+            "Congenial", 
+            "Sociable" 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0025",
+        
+    },
+    {
+        question: "Imperturbable",
+        correct: "not capable of being disturbed",
+        description: "The counselor had so much experience dealing with distraught children that ahe seemed imperturbable, "+
+        "even when faced with the wildest tantrums.",
+        synonyms:[
+            "Perturb: to disturb greatly", 
+            "Composed: ",
+            "Dispassionate: ", 
+            "Impassive: ",
+            "Serene: ",
+            "Stoical: ",
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0026",
+        
+    },
+    {
+        question: "Laconic",
+        correct: "using few words",
+        description: "She was a laconic poet who built her reputation on using words as sparingly as possible",
+        synonyms:[
+            "Concise", 
+            "Curt",
+            "Pithy", 
+            "Taciturn",
+            "Terse",
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0027",
+        
+    },
+    {
+        question: "Lament",
+        correct: "to express sorrow; to grieve",
+        description: "The children continued to lament the death of the goldfish weeks after its demise.",
+        synonyms:[
+            "Bewail: ", 
+            "Deplore: ",
+            "Grieve", 
+            "Mourn",
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0028",
+        
+    },
+    {
+        question: "Malleable",
+        correct: "capable of being shaped",
+        description: "Gold is the most malleable of precious metals; it can easily be formed into almost any shape.",
+        synonyms:[
+            "Adaptable", 
+            "Ductile",
+            "Plastic", 
+            "Pliable",
+            "Pliant",
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0029",
+        
+    },
+    {
+        question: "Obsequious",
+        correct: "overly submissive and eager to please",
+        description: "The obsequious new associate made sure to compliment her supervisor's tie and agree with him on every issue.",
+        synonyms:[
+            "Obeisance: a physical show of respect or submission, such as a bow", 
+            "Compliant",
+            "Deferential", 
+            "Servile",
+            "Subservient",
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0030",
+        
+    },
+    {
+        question: "Pedant",
+        correct: "someone who shows off learning",
+        description: "The graduate instructor's tedious and excessive commentary on the subject soon gained her a reputation as pedant.",
+        synonyms:[
+            "Pedantic: making an excessive display of learning",  
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0031",
+        
+    },
+    {
+        question: "Repudiate",
+        correct: "to reject the validity of",
+        description: "The old woman's claim that she was Russian royalty was repudiated when DNA tests showed she was of no relation to them.",
+        synonyms:[
+            "Deny", 
+            "Disavow",
+            "Disclaim",
+            "Disown",
+            "Renounce" 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0032",    
+    },
+    {
+        question: "Soporific",
+        correct: "causing sleep or lethargy",
+        description: "The movie proved to be so soporific that soon loud snores were heard throughout the theater.",
+        synonyms:[
+            "Sopor: deep sleep", 
+            "Hypnotic",
+            "Narcotic",
+            "Slumberous",
+            "Somnolent" 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0033",
+        
+    },
+    {
+        question: "Tirade",
+        correct: "long, harsh speech or verbal attack",
+        description: "Observers were shocked at the manager's tirade over such a minor mistake.",
+        synonyms:[
+            "Diatribe", 
+            "Fulmination",
+            "Harangue",
+            "Obloquy",
+            "Revilement",
+            "Vilification" 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0034",
+        
+    },
+    {
+        question: "Veracity",
+        correct: "truthfulness, accuracy",
+        description: "She had a reputation for veracity, so everyone trusted her description of events.",
+        synonyms:[
+            "Verity: truth", 
+            "Veracious: filled with truth and accuracy",
+            "Candor",
+            "Exactitude",
+            "Fidelity",
+            "Probity" 
+        ],
+        answers: [ "", "", "", ""],
+        questionId: "0035",
+        
+    },
+    // {
+    //     question: "",
+    //     correct: "",
+    //     description: "",
+    //     synonyms:[
+    //         "", 
+    //         "", 
+    //     ],
+    //     answers: [ "", "", "", ""],
+    //     questionId: "0015",
+        
+    // },
+    // {
+    //     question: "",
+    //     correct: "",
+    //     description: "",
+    //     synonyms:[
+    //         "", 
+    //         "", 
+    //     ],
+    //     answers: [ "", "", "", ""],
+    //     questionId: "0015",
+        
+    // },
+    
 ]
 
 
